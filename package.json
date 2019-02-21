@@ -1,0 +1,26 @@
+{
+  "name": "@clipchamp/tslint-config",
+  "version": "0.1.1",
+  "description": "Clipchamp's TypeScript configuration. Consistent code a day keeps the linter away",
+  "main": "tslint-base.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clipchamp/style-guide.git"
+  },
+  "keywords": [
+    "tslint",
+    "style-guide",
+    "config"
+  ],
+  "author": "Byron Mejia <byron@clipchamp.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clipchamp/style-guide/issues"
+  },
+  "homepage": "https://github.com/clipchamp/style-guide#readme",
+  "peerDependencies": {
+    "tslint": "^5.12.1",
+    "tslint-sonarts": "^1.8.0",
+    "codelyzer": "^4.5.0"
+  }
+}
