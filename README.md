@@ -34,10 +34,6 @@ You can achieve this via:
   "extends": [
     "@clipchamp/tslint-config/tslint-config-angular"
   ],
-  //... Any Extra Rules Here. i.e.: component-selector && directive-selector
 }
 ```
 
-Notice how we are pointing to a local copy of codelyzer? This assumes we have installed codelyzer as a dependencies
-in the angular project. This repo also will extend from the base `tslint-config.json` file, so regular TypeScript
-rules are also enforced.
