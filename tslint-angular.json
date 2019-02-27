@@ -1,6 +1,5 @@
 {
-  "rulesDirectory": ["codelyzer"],
-  "extends": ["./tslint-config.json", "codelyzer"],
+  "extends": ["codelyzer"],
   "rules": {
     "use-input-property-decorator": true,
     "use-output-property-decorator": true,
