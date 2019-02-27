@@ -62,17 +62,13 @@
     "no-accessor-field-mismatch": {
       "severity": "warning"
     },
-    "no-all-duplicated-branches": {
-      "severity": "warning"
-    },
+    "no-all-duplicated-branches": true,
     "no-any": true,
     "no-arg": true,
     "no-array-delete": {
       "severity": "warning"
     },
-    "no-big-function": {
-      "severity": "warning"
-    },
+    "no-big-function": true,
     "no-bitwise": false,
     "no-boolean-literal-compare": true,
     "no-case-with-or": {
@@ -82,28 +78,18 @@
     "no-collection-size-mischeck": {
       "severity": "warning"
     },
-    "no-commented-code": {
-      "severity": "warning"
-    },
+    "no-commented-code": true,
     "no-console": [true, "info", "time", "timeEnd", "trace"],
     "no-construct": true,
-    "no-dead-store": {
-      "severity": "warning"
-    },
+    "no-dead-store": true,
     "no-debugger": true,
     "no-duplicate-in-composite": {
       "severity": "warning"
     },
-    "no-duplicate-string": {
-      "severity": "warning"
-    },
+    "no-duplicate-string": true,
     "no-duplicate-super": true,
-    "no-duplicated-branches": {
-      "severity": "warning"
-    },
-    "no-element-overwrite": {
-      "severity": "warning"
-    },
+    "no-duplicated-branches": true,
+    "no-element-overwrite": true,
     "no-empty": false,
     "no-empty-destructuring": {
       "severity": "warning"
@@ -127,26 +113,16 @@
     "no-identical-expressions": {
       "severity": "warning"
     },
-    "no-identical-functions": {
-      "severity": "warning"
-    },
-    "no-ignored-initial-value": {
-      "severity": "warning"
-    },
-    "no-ignored-return": {
-      "severity": "warning"
-    },
-    "no-in-misuse": {
-      "severity": "warning"
-    },
+    "no-identical-functions": true,
+    "no-ignored-initial-value": true,
+    "no-ignored-return": true,
+    "no-in-misuse": true,
     "no-inconsistent-return": false,
     "no-inferrable-types": [true, "ignore-params"],
     "no-invariant-return": true,
     "no-inverted-boolean-check": true,
     "no-magic-numbers": [true, -1, 0, 1, 2, 3, 1000],
-    "no-misleading-array-reverse": {
-      "severity": "warning"
-    },
+    "no-misleading-array-reverse": true,
     "no-misspelled-operator": {
       "severity": "warning"
     },
@@ -159,28 +135,16 @@
       "severity": "warning"
     },
     "no-null-keyword": true,
-    "no-redundant-boolean": {
-      "severity": "warning"
-    },
-    "no-redundant-jump": {
-      "severity": "warning"
-    },
+    "no-redundant-boolean": true,
+    "no-redundant-jump": true,
     "no-redundant-parentheses": {
       "severity": "warning"
     },
-    "no-return-type-any": {
-      "severity": "warning"
-    },
-    "no-same-line-conditional": {
-      "severity": "warning"
-    },
-    "no-self-assignment": {
-      "severity": "warning"
-    },
+    "no-return-type-any": true,
+    "no-same-line-conditional": true,
+    "no-self-assignment": true,
     "no-shadowed-variable": true,
-    "no-small-switch": {
-      "severity": "warning"
-    },
+    "no-small-switch": true,
     "no-statements-same-line": {
       "severity": "warning"
     },
@@ -188,12 +152,8 @@
     "no-string-throw": true,
     "no-switch-case-fall-through": true,
     "no-trailing-whitespace": true,
-    "no-unconditional-jump": {
-      "severity": "warning"
-    },
-    "no-undefined-argument": {
-      "severity": "warning"
-    },
+    "no-unconditional-jump": true,
+    "no-undefined-argument": true,
     "no-unenclosed-multiline-block": {
       "severity": "warning"
     },
@@ -207,23 +167,15 @@
     },
     "no-unused-expression": true,
     "no-use-before-declare": true,
-    "no-use-of-empty-return-value": {
-      "severity": "warning"
-    },
-    "no-useless-cast": {
-      "severity": "warning"
-    },
-    "no-useless-increment": {
-      "severity": "warning"
-    },
+    "no-use-of-empty-return-value": true,
+    "no-useless-cast": true,
+    "no-useless-increment": true,
     "no-useless-intersection": {
       "severity": "warning"
     },
     "no-var-keyword": true,
     "no-var-requires": false,
-    "no-variable-usage-before-declaration": {
-      "severity": "warning"
-    },
+    "no-variable-usage-before-declaration": true,
     "object-literal-key-quotes": [false],
     "object-literal-sort-keys": false,
     "one-line": [
@@ -234,19 +186,13 @@
       "check-whitespace"
     ],
     "ordered-imports": false,
-    "parameters-max-number": {
-      "severity": "warning"
-    },
+    "parameters-max-number": true,
     "prefer-const": true,
     "prefer-default-last": {
       "severity": "warning"
     },
-    "prefer-for-of": {
-      "severity": "warning"
-    },
-    "prefer-immediate-return": {
-      "severity": "warning"
-    },
+    "prefer-for-of": true,
+    "prefer-immediate-return": true,
     "prefer-optional": true,
     "prefer-promise-shorthand": {
       "severity": "warning"
