@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/clipchamp/style-guide.git"
   },
+  "scripts": {
+    "release": "release-it"
+  },
   "keywords": [
     "tslint",
     "style-guide",
@@ -22,5 +25,8 @@
     "tslint": "^5.12.1",
     "tslint-sonarts": "^1.8.0",
     "codelyzer": "^4.5.0"
+  },
+  "devDependencies": {
+    "release-it": "^10.2.0"
   }
 }
