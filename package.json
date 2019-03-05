@@ -28,5 +28,6 @@
   },
   "devDependencies": {
     "release-it": "^10.2.0"
-  }
+  },
+  "dependencies": {}
 }
