@@ -1,6 +1,6 @@
 {
   "name": "@clipchamp/tslint-config",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Clipchamp's TypeScript configuration. Consistent code a day keeps the linter away",
   "main": "tslint-base.json",
   "repository": {
