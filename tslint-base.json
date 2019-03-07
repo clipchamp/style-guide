@@ -29,10 +29,14 @@
     },
     "curly": true,
     "cyclomatic-complexity": false,
+    "deprecation": {
+      "severity": "warn"
+    },
     "eofline": true,
     "file-name-casing": [true, "kebab-case"],
     "forin": true,
     "function-constructor": true,
+    "import-blacklist": [true, "rxjs/Rx"],
     "import-spacing": true,
     "indent": [true, "spaces", 4],
     "interface-name": false,
@@ -54,8 +58,7 @@
     "member-ordering": [
       true,
       {
-        "alphabetize": true,
-        "order": "statics-first"
+          "order": ["static-field", "instance-field", "static-method", "instance-method"]
       }
     ],
     "newline-per-chained-call": false,
