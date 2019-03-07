@@ -58,7 +58,8 @@
     "member-ordering": [
       true,
       {
-          "order": ["static-field", "instance-field", "static-method", "instance-method"]
+          "order": "statics-first",
+          "alphabetize": true
       }
     ],
     "newline-per-chained-call": false,
