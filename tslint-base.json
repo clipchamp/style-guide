@@ -170,7 +170,6 @@
       "severity": "warning"
     },
     "no-unused-expression": true,
-    "no-use-before-declare": true,
     "no-use-of-empty-return-value": true,
     "no-useless-cast": true,
     "no-useless-increment": true,
