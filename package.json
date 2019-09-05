@@ -31,7 +31,7 @@
     "@typescript-eslint/parser": ">= 2"
   },
   "devDependencies": {
-    "release-it": "^10.2.0"
+    "release-it": "^10.4.5"
   },
   "dependencies": {}
 }
