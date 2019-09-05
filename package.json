@@ -1,8 +1,8 @@
 {
-  "name": "@clipchamp/tslint-config",
-  "version": "0.1.6",
+  "name": "@clipchamp/eslint-config",
+  "version": "0.0.0",
   "description": "Clipchamp's TypeScript configuration. Consistent code a day keeps the linter away",
-  "main": "tslint-base.json",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/clipchamp/style-guide.git"
@@ -22,9 +22,13 @@
   },
   "homepage": "https://github.com/clipchamp/style-guide#readme",
   "peerDependencies": {
-    "tslint": "^5.12.1",
-    "tslint-sonarts": "^1.8.0",
-    "codelyzer": "^4.5.0"
+    "eslint": ">= 6",
+    "eslint-config-prettier": ">= 6",
+    "eslint-plugin-jest": ">= 22",
+    "eslint-plugin-prettier": ">= 3",
+    "eslint-plugin-react": ">= 7",
+    "@typescript-eslint/eslint-plugin": ">= 2",
+    "@typescript-eslint/parser": ">= 2"
   },
   "devDependencies": {
     "release-it": "^10.2.0"
