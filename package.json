@@ -1,6 +1,6 @@
 {
   "name": "@clipchamp/eslint-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Clipchamp's TypeScript configuration. Consistent code a day keeps the linter away",
   "main": "index.js",
   "repository": {
